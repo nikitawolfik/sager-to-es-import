@@ -1,12 +1,12 @@
-import "core-js/modules/es6.array.for-each";
-import "core-js/modules/es6.array.filter";
-import "core-js/modules/es6.object.define-property";
-import "core-js/modules/es6.array.map";
+import "core-js/modules/es.array.for-each";
+import "core-js/modules/es.array.filter";
+import "core-js/modules/es.object.define-property";
+import "core-js/modules/es.array.map";
 import "regenerator-runtime/runtime";
 import "core-js/modules/web.dom.iterable";
-import "core-js/modules/es6.array.iterator";
-import "core-js/modules/es6.object.keys";
-import "core-js/modules/es6.array.reduce";
+import "core-js/modules/es.array.iterator";
+import "core-js/modules/es.object.keys";
+import "core-js/modules/es.array.reduce";
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
 
