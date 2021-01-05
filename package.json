@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/skoob13/sager#readme",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "deepmerge": "^2.1.1",
     "valid-url": "^1.0.9"
   },
